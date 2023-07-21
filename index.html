@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div>
+            <h1 class="page-title">Conversor de Moedas do Smaug</h1>
+            <p class="page-subtitle">Descubra os valores em reais e em bitcoin!</p><br><br>
+        </div>
+        <div>
+            <label for="moeda">Insira o valor em dólar:</label><br>
+            <input type="number" id="valor" size="2" /><br>
+            <button type="submit" onclick="Converter()">Converter</button>
+        </div>
+        <div>
+            <h2 id="valorConvertidoReal"></h2>
+            <h2 id="valorConvertidoBtc"></h2>
+        </div>
+    </section>
+    <script src="assets/script.js"></script>
+    <footer>
+        <div class="footer">
+            <h4>@joaoAndNeto</h4>
+            <h6>Feito na Imersão Dev Alura</h6>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: #1e292e;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh
+  }
+
+  .container {
+    min-height: 400px;
+    background-image: url("img/smalg-gold-draw.jpg");
+    background-size: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    height: 85vh;
+  }
+  
+  .page-title {
+    font-size: 1.6rem;
+    color: #e5e5e5;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    font-size: .9rem;
+    color: #e5e5e5;
+    margin-top: 5px;
+  }
+  
+  input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  label {
+    color: #e5e5e5;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #e5e5e5;
+  }
+  
+  h2 {
+    color: #e5e5e5;
+    font-size: 1.87rem;
+  }
+
+  .footer {
+    color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h4, h6 {
+    margin: 0px;
+    padding-top: 10px;
+  }
+  
